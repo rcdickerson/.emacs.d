@@ -32,14 +32,16 @@
  '(ample-zen-theme
    flx
    flx-ido
+   haskell-mode
    projectile
    ))
 
 ;; Load configurations.
 (require 'setup-ido)
 (require 'setup-org)
+(require 'setup-projectile)
 
-;; Appearance.
+;; Color theme.
 (require 'ample-zen-theme)
 
 ;; Key bindings.

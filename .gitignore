@@ -1,2 +1,4 @@
-backups
-elpa
+auto-save-list/
+backups/
+elpa/
+projectile-bookmarks.eld
