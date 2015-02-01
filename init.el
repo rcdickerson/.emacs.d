@@ -15,11 +15,11 @@
 (defconst backup-dir (expand-file-name
                       (concat user-emacs-directory "backups")))
 (setq backup-directory-alist
-      `(("." . ,backup-dir)))
-(setq auto-save-list-file-prefix
-      backup-dir)
+      `((".*" . ,backup-dir)))
+(setq auto-save-file-name-transforms
+      `((".*", backup-dir t)))
 
-;; Keep emacs Custom-settings in a separate file.
+;; Keep custom settings in a separate file.
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (load custom-file)
 
@@ -29,7 +29,8 @@
 ;; Make sure packages are installed.
 (require 'setup-package)
 (install-missing-packages
- '(flx
+ '(ample-zen-theme
+   flx
    flx-ido
    projectile
    ))
@@ -38,5 +39,8 @@
 (require 'setup-ido)
 (require 'setup-org)
 
-;; Load key bindings.
+;; Appearance.
+(require 'ample-zen-theme)
+
+;; Key bindings.
 (require 'key-bindings)
