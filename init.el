@@ -30,6 +30,7 @@
 (require 'setup-package)
 (install-missing-packages
  '(ample-zen-theme
+   expand-region
    flx
    flx-ido
    haskell-mode
