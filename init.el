@@ -14,9 +14,10 @@
 ;; Write backup files and autosaves to their own directory.
 (defconst backup-dir (expand-file-name
                       (concat user-emacs-directory "backups")))
-(setq backup-directory-alist `(("." . ,backup-dir)))
-(setq auto-save-file-name-transforms `((".",backup-dir t)))
-(setq auto-save-list-file-prefix backup-dir)
+(setq backup-directory-alist
+      `(("." . ,backup-dir)))
+(setq auto-save-list-file-prefix
+      backup-dir)
 
 ;; Keep emacs Custom-settings in a separate file.
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
@@ -25,20 +26,17 @@
 ;; Load global editor settings.
 (require 'global-settings)
 
-;; Install missing packages.
+;; Make sure packages are installed.
 (require 'setup-package)
+(install-missing-packages
+ '(flx
+   flx-ido
+   projectile
+   ))
 
-(defun init--install-packages()
-  (packages-install
-   '(flx
-     flx-ido
-     )))
-
-(condition-case nil
-    (init--install-packages)
-  (error
-   (package-refresh-contents)
-   (init--install-packages)))
-
-;; Configure packages.
+;; Load configurations.
 (require 'setup-ido)
+(require 'setup-org)
+
+;; Load key bindings.
+(require 'key-bindings)

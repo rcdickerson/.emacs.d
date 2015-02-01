@@ -5,6 +5,13 @@
 
 (package-initialize)
 
+(defun install-missing-packages (packages)
+  (condition-case nil
+      (packages-install packages)
+    (error
+     (package-refresh-contents)
+     (packages-install packages))))
+
 (defun packages-install (packages)
   (loop for p in packages
     when (not (package-installed-p p))
