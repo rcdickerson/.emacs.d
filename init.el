@@ -35,12 +35,14 @@
    flx-ido
    haskell-mode
    projectile
+   smex
    ))
 
 ;; Load configurations.
 (require 'setup-ido)
 (require 'setup-org)
 (require 'setup-projectile)
+(require 'setup-smex)
 
 ;; Color theme.
 (require 'ample-zen-theme)
