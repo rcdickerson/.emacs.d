@@ -40,6 +40,7 @@
 
 ;; Load configurations.
 (require 'setup-ido)
+(require 'setup-js-mode)
 (require 'setup-org)
 (require 'setup-projectile)
 (require 'setup-smex)
