@@ -31,6 +31,7 @@
 (install-missing-packages
  '(ample-zen-theme
    expand-region
+   fill-column-indicator
    flx
    flx-ido
    haskell-mode
@@ -39,6 +40,7 @@
    ))
 
 ;; Load configurations.
+(require 'setup-fci)
 (require 'setup-ido)
 (require 'setup-org)
 (require 'setup-projectile)
