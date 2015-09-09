@@ -41,6 +41,7 @@
 
 ;; Load configurations.
 (require 'setup-fci)
+(require 'setup-hideshow-mode)
 (require 'setup-ido)
 (require 'setup-js-mode)
 (require 'setup-org)
