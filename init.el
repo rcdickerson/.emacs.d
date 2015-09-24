@@ -6,6 +6,10 @@
 ;; No splash screen.
 (setq inhibit-startup-message t)
 
+;; Use Inconsolata where available.
+(when (member "Inconsolata" (font-family-list))
+  (set-face-attribute 'default nil :font "Inconsolata-12"))
+
 ;; Set up load paths.
 (setq settings-dir
       (expand-file-name "settings" user-emacs-directory))
