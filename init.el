@@ -40,6 +40,7 @@
    flx
    flx-ido
    haskell-mode
+   neotree
    projectile
    smex
    spaceline
@@ -51,6 +52,7 @@
 (require 'setup-hideshow-mode)
 (require 'setup-ido)
 (require 'setup-js-mode)
+(require 'setup-neotree)
 (require 'setup-org)
 (require 'setup-projectile)
 (require 'setup-spaceline)
