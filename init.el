@@ -35,21 +35,25 @@
 (install-missing-packages
  '(ample-zen-theme
    expand-region
+   eyebrowse
    fill-column-indicator
    flx
    flx-ido
    haskell-mode
    projectile
    smex
+   spaceline
    ))
 
 ;; Load configurations.
+(require 'setup-eyebrowse)
 (require 'setup-fci)
 (require 'setup-hideshow-mode)
 (require 'setup-ido)
 (require 'setup-js-mode)
 (require 'setup-org)
 (require 'setup-projectile)
+(require 'setup-spaceline)
 (require 'setup-smex)
 
 ;; Color theme.
