@@ -40,8 +40,6 @@
    flx
    flx-ido
    haskell-mode
-   helm
-   helm-gtags
    neotree
    projectile
    smex
