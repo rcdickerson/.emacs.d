@@ -45,6 +45,7 @@
    smex
    rust-mode
    spaceline
+   web-mode
    ))
 
 ;; Load configurations.
@@ -59,6 +60,7 @@
 (require 'setup-rust-mode)
 (require 'setup-spaceline)
 (require 'setup-smex)
+(require 'setup-web-mode)
 
 ;; Color theme.
 (require 'ample-zen-theme)
