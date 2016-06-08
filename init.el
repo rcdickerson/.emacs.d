@@ -40,9 +40,12 @@
    flx
    flx-ido
    haskell-mode
+   helm
+   helm-gtags
    neotree
    projectile
    smex
+   rust-mode
    spaceline
    ))
 
@@ -55,6 +58,7 @@
 (require 'setup-neotree)
 (require 'setup-org)
 (require 'setup-projectile)
+(require 'setup-rust-mode)
 (require 'setup-spaceline)
 (require 'setup-smex)
 

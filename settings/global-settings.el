@@ -34,10 +34,10 @@
 ;; Confirm with 'y' / 'n' instead of 'yes' / 'no'.
 (defalias 'yes-or-no-p 'y-or-n-p)
 
-; Don't ring any bells.
+;; Don't ring any bells.
 (setq ring-bell-function 'ignore)
 
-; Highlight find/replace results.
+;; Highlight find/replace results.
 (setq query-replace-highlight t)
 
 ;; UTF-8, please.
