@@ -34,6 +34,7 @@
 (require 'setup-package)
 (install-missing-packages
  '(ample-zen-theme
+   dockerfile-mode
    expand-region
    eyebrowse
    fill-column-indicator
