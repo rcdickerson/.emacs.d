@@ -41,6 +41,7 @@
    flx
    flx-ido
    haskell-mode
+   json-mode
    neotree
    projectile
    smex
@@ -52,6 +53,7 @@
 ;; Load configurations.
 (require 'setup-eyebrowse)
 (require 'setup-fci)
+(require 'setup-go-mode)
 (require 'setup-hideshow-mode)
 (require 'setup-ido)
 (require 'setup-js-mode)
