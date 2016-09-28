@@ -40,6 +40,7 @@
    fill-column-indicator
    flx
    flx-ido
+   flycheck
    haskell-mode
    json-mode
    neotree
@@ -53,9 +54,12 @@
 ;; Load configurations.
 (require 'setup-eyebrowse)
 (require 'setup-fci)
+(require 'setup-flycheck)
+(require 'setup-flyspell)
 (require 'setup-go-mode)
 (require 'setup-hideshow-mode)
 (require 'setup-ido)
+(require 'setup-ispell)
 (require 'setup-js-mode)
 (require 'setup-neotree)
 (require 'setup-org)
