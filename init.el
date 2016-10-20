@@ -43,6 +43,7 @@
    flycheck
    haskell-mode
    json-mode
+   markdown-mode
    neotree
    projectile
    smex
