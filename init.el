@@ -46,6 +46,7 @@
    haskell-mode
    idris-mode
    json-mode
+   markdown-mode
    neotree
    projectile
    smex
