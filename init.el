@@ -31,6 +31,8 @@
 (require 'global-settings)
 
 ;; Make sure packages are installed.
+(setq package-enable-at-startup nil)
+(package-initialize)
 (require 'setup-package)
 (install-missing-packages
  '(ample-zen-theme
@@ -42,6 +44,7 @@
    flx-ido
    flycheck
    haskell-mode
+   idris-mode
    json-mode
    neotree
    projectile
