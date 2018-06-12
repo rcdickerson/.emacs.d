@@ -31,6 +31,7 @@
 (require 'global-settings)
 
 ;; Make sure packages are installed.
+(setq package-enable-at-startup nil)
 (package-initialize)
 (require 'setup-package)
 (install-missing-packages
@@ -44,6 +45,7 @@
    flx-ido
    flycheck
    haskell-mode
+   idris-mode
    json-mode
    leuven-theme
    markdown-mode
