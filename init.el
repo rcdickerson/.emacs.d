@@ -31,9 +31,11 @@
 (require 'global-settings)
 
 ;; Make sure packages are installed.
+(package-initialize)
 (require 'setup-package)
 (install-missing-packages
  '(ample-zen-theme
+   company-coq
    dockerfile-mode
    expand-region
    eyebrowse
@@ -43,6 +45,7 @@
    flycheck
    haskell-mode
    json-mode
+   leuven-theme
    markdown-mode
    neotree
    projectile
@@ -53,6 +56,7 @@
    ))
 
 ;; Load configurations.
+(require 'setup-company-coq)
 (require 'setup-eyebrowse)
 (require 'setup-fci)
 (require 'setup-flycheck)
@@ -72,6 +76,10 @@
 
 ;; Color theme.
 (require 'ample-zen-theme)
+;(require 'leuven-theme) ; A light theme
 
 ;; Key bindings.
 (require 'key-bindings)
+
+;; Open .v files with Proof General's Coq mode
+(load "~/.emacs.d/lisp/PG/generic/proof-site")
