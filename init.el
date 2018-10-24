@@ -36,8 +36,10 @@
 (require 'setup-package)
 (install-missing-packages
  '(ample-zen-theme
+   auctex
    company-coq
    dockerfile-mode
+   exec-path-from-shell
    expand-region
    eyebrowse
    fill-column-indicator
@@ -58,7 +60,9 @@
    ))
 
 ;; Load configurations.
+(require 'setup-auctex)
 (require 'setup-company-coq)
+(require 'setup-exec-path-from-shell)
 (require 'setup-eyebrowse)
 (require 'setup-fci)
 (require 'setup-flycheck)
