@@ -53,6 +53,7 @@
    markdown-mode
    neotree
    projectile
+   proof-general
    smex
    rust-mode
    spaceline
@@ -86,6 +87,3 @@
 
 ;; Key bindings.
 (require 'key-bindings)
-
-;; Open .v files with Proof General's Coq mode
-(load "~/.emacs.d/lisp/PG/generic/proof-site")
