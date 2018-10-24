@@ -50,6 +50,7 @@
    idris-mode
    json-mode
    leuven-theme
+   magit
    markdown-mode
    neotree
    projectile
