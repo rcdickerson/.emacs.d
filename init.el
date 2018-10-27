@@ -46,6 +46,7 @@
    flx
    flx-ido
    flycheck
+   git-gutter
    haskell-mode
    idris-mode
    json-mode
@@ -69,6 +70,7 @@
 (require 'setup-fci)
 (require 'setup-flycheck)
 (require 'setup-flyspell)
+(require 'setup-git-gutter)
 (require 'setup-go-mode)
 (require 'setup-hideshow-mode)
 (require 'setup-ido)
