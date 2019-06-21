@@ -57,6 +57,7 @@
    projectile
    proof-general
    smex
+   rainbow-delimiters
    rust-mode
    spaceline
    web-mode
@@ -79,6 +80,7 @@
 (require 'setup-neotree)
 (require 'setup-org)
 (require 'setup-projectile)
+(require 'setup-rainbow-delimiters)
 (require 'setup-rust-mode)
 (require 'setup-spaceline)
 (require 'setup-smex)
