@@ -34,4 +34,7 @@
 (global-set-key (kbd "C-c I") #'crux-find-user-init-file)
 (global-set-key (kbd "M-o") #'crux-other-window-or-switch-buffer)
 
+;; Avy bindings
+(global-set-key (kbd "C-:") 'avy-goto-char)
+
 (provide 'key-bindings)
