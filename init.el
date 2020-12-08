@@ -36,6 +36,7 @@
 (install-missing-packages
  '(ample-zen-theme
    auctex
+   avy
    company-coq
    crux
    dockerfile-mode

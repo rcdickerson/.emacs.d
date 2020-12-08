@@ -1,3 +1,6 @@
+;; Open maximized
+(add-to-list 'initial-frame-alist '(fullscreen . maximized))
+
 ;; Spaces over tabs. Tab width should default to two.
 (set-default 'indent-tabs-mode nil)
 (set-default 'tab-width 2)
