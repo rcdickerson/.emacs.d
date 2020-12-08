@@ -22,11 +22,16 @@
 ; Use ibuffer over standard buffer menu.
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
-;; Duplicate line.
-(global-set-key "\C-c\C-d" "\C-a\C- \C-n\M-w\C-y")
-
 ;; Expand region.
 (global-set-key (kbd "C-=") 'er/expand-region)
 (global-set-key (kbd "C-+") 'er/contract-region)
+
+;; Crux bindings
+(global-set-key [(shift return)] #'crux-smart-open-line)
+(global-set-key (kbd "C-<backspace>") #'crux-kill-line-backwards)
+(global-set-key (kbd "C-c d") #'crux-duplicate-current-line-or-region)
+(global-set-key (kbd "C-c M-d") #'crux-duplicate-and-comment-current-line-or-region)
+(global-set-key (kbd "C-c I") #'crux-find-user-init-file)
+(global-set-key (kbd "M-o") #'crux-other-window-or-switch-buffer)
 
 (provide 'key-bindings)

@@ -32,12 +32,12 @@
 
 ;; Make sure packages are installed.
 (setq package-enable-at-startup nil)
-(package-initialize)
 (require 'setup-package)
 (install-missing-packages
  '(ample-zen-theme
    auctex
    company-coq
+   crux
    dockerfile-mode
    exec-path-from-shell
    expand-region
