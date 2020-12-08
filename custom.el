@@ -12,7 +12,7 @@
  '(haskell-mode-hook (quote (turn-on-haskell-indent)))
  '(package-selected-packages
    (quote
-    (avy crux boogie-friends rainbow-mode rainbow-delimiters magit git-gutter proof-general exec-path-from-shell auctex idris-mode company-coq leuven-theme web-mode spaceline rust-mode smex projectile neotree markdown-mode json-mode haskell-mode flycheck flx-ido flx fill-column-indicator eyebrowse expand-region dockerfile-mode ample-zen-theme)))
+    (undo-tree avy crux boogie-friends rainbow-mode rainbow-delimiters magit git-gutter proof-general exec-path-from-shell auctex idris-mode company-coq leuven-theme web-mode spaceline rust-mode smex projectile neotree markdown-mode json-mode haskell-mode flycheck flx-ido flx fill-column-indicator eyebrowse expand-region dockerfile-mode ample-zen-theme)))
  '(proof-next-command-insert-space t)
  '(proof-three-window-enable t))
 (custom-set-faces

@@ -61,6 +61,7 @@
    rainbow-delimiters
    rust-mode
    spaceline
+   undo-tree
    web-mode
    ))
 
@@ -85,6 +86,7 @@
 (require 'setup-rust-mode)
 (require 'setup-spaceline)
 (require 'setup-smex)
+(require 'setup-undo-tree)
 (require 'setup-web-mode)
 
 ;; Color theme.
