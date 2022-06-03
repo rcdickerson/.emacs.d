@@ -32,7 +32,6 @@
 
 ;; Make sure packages are installed.
 (setq package-enable-at-startup nil)
-(package-initialize)
 (require 'setup-package)
 (install-missing-packages
  '(ample-zen-theme
@@ -86,8 +85,8 @@
 (require 'setup-smex)
 (require 'setup-web-mode)
 
-;; Color theme.
-(require 'ample-zen-theme)
+;; Theme.
+(load-theme 'ample-zen t)
 ;(require 'leuven-theme) ; A light theme
 
 ;; Key bindings.
