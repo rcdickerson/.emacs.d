@@ -11,8 +11,8 @@
 ;; No double spaces at end of sentences.
 (set-default 'sentence-end-double-space nil)
 
-;; Use 80 chars as default line width.
-(set-default 'fill-column 80)
+;; Use 70 chars as default line width.
+(set-default 'fill-column 70)
 
 ;; Always show line and column numbers.
 (setq line-number-mode t)
