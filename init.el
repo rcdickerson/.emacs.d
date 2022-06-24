@@ -63,6 +63,7 @@
    ))
 
 ;; Load configurations.
+(require 'setup-agda-mode)
 (require 'setup-auctex)
 (require 'setup-company-coq)
 (require 'setup-exec-path-from-shell)
