@@ -29,4 +29,11 @@
 (global-set-key (kbd "C-=") 'er/expand-region)
 (global-set-key (kbd "C-+") 'er/contract-region)
 
+;; Enter TeX input mode
+(defun set-TeX-input-method ()
+  (interactive)
+  (set-input-method "TeX")
+  )
+(global-set-key (kbd "M-T") 'set-TeX-input-method)
+
 (provide 'key-bindings)
