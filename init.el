@@ -45,6 +45,7 @@
    flx
    flx-ido
    flycheck
+   flycheck-rust
    git-gutter
    haskell-mode
    idris-mode
