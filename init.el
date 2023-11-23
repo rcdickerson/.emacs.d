@@ -60,6 +60,7 @@
    rainbow-delimiters
    rust-mode
    spaceline
+   vertico
    web-mode
    ))
 
@@ -85,6 +86,7 @@
 (require 'setup-rust-mode)
 (require 'setup-spaceline)
 (require 'setup-smex)
+(require 'setup-vertico)
 (require 'setup-web-mode)
 
 ;; Theme.
