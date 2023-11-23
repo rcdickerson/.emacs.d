@@ -38,6 +38,7 @@
    auctex
    company-coq
    dockerfile-mode
+   doom-modeline
    exec-path-from-shell
    expand-region
    eyebrowse
@@ -54,12 +55,12 @@
    magit
    markdown-mode
    neotree
+   nerd-icons
    projectile
    proof-general
    smex
    rainbow-delimiters
    rust-mode
-   spaceline
    vertico
    web-mode
    ))
@@ -68,6 +69,7 @@
 (require 'setup-agda-mode)
 (require 'setup-auctex)
 (require 'setup-company-coq)
+(require 'setup-doom-modeline)
 (require 'setup-exec-path-from-shell)
 (require 'setup-eyebrowse)
 (require 'setup-fci)
@@ -80,11 +82,11 @@
 (require 'setup-ispell)
 (require 'setup-js-mode)
 (require 'setup-neotree)
+(require 'setup-nerd-icons)
 (require 'setup-org)
 (require 'setup-projectile)
 (require 'setup-rainbow-delimiters)
 (require 'setup-rust-mode)
-(require 'setup-spaceline)
 (require 'setup-smex)
 (require 'setup-vertico)
 (require 'setup-web-mode)
