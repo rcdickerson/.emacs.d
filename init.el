@@ -45,8 +45,6 @@
    expand-region
    eyebrowse
    fill-column-indicator
-   flx
-   flx-ido
    flycheck
    flycheck-rust
    git-gutter
@@ -83,7 +81,6 @@
 (require 'setup-git-gutter)
 (require 'setup-go-mode)
 (require 'setup-hideshow-mode)
-(require 'setup-ido)
 (require 'setup-ispell)
 (require 'setup-js-mode)
 (require 'setup-lsp-mode)
