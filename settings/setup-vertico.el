@@ -32,4 +32,4 @@
   ;; Enable recursive minibuffers
   (setq enable-recursive-minibuffers t))
 
-(provide `setup-vertico)
+(provide 'setup-vertico)

@@ -34,7 +34,8 @@
 (setq package-enable-at-startup nil)
 (require 'setup-package)
 (install-missing-packages
- '(ample-zen-theme
+ '(all-the-icons
+   ample-zen-theme
    auctex
    company
    company-coq
@@ -69,6 +70,7 @@
    ))
 
 ;; Load configurations.
+(require 'setup-all-the-icons)
 (require 'setup-agda-mode)
 (require 'setup-auctex)
 (require 'setup-company-coq)
