@@ -57,6 +57,7 @@
    lsp-ui
    magit
    markdown-mode
+   multiple-cursors
    neotree
    nerd-icons
    projectile
@@ -85,6 +86,7 @@
 (require 'setup-ispell)
 (require 'setup-js-mode)
 (require 'setup-lsp-mode)
+(require 'setup-multiple-cursors)
 (require 'setup-neotree)
 (require 'setup-nerd-icons)
 (require 'setup-org)
