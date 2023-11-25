@@ -73,7 +73,7 @@
 (require 'setup-all-the-icons)
 (require 'setup-agda-mode)
 (require 'setup-auctex)
-(require 'setup-company-coq)
+(require 'setup-company)
 (require 'setup-doom-modeline)
 (require 'setup-exec-path-from-shell)
 (require 'setup-eyebrowse)
