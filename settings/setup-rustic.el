@@ -7,4 +7,6 @@
 
 (add-hook 'rust-mode-hook 'hl-todo-mode)
 
+(setq rust-indent-offset 2)
+
 (provide 'setup-rustic)
