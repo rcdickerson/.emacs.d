@@ -36,6 +36,7 @@
 (install-missing-packages
  '(ample-zen-theme
    auctex
+   company
    company-coq
    dockerfile-mode
    doom-modeline
@@ -52,6 +53,8 @@
    idris-mode
    json-mode
    leuven-theme
+   lsp-mode
+   lsp-ui
    magit
    markdown-mode
    neotree
@@ -60,7 +63,7 @@
    proof-general
    smex
    rainbow-delimiters
-   rust-mode
+   rustic
    vertico
    web-mode
    ))
@@ -81,12 +84,13 @@
 (require 'setup-ido)
 (require 'setup-ispell)
 (require 'setup-js-mode)
+(require 'setup-lsp-mode)
 (require 'setup-neotree)
 (require 'setup-nerd-icons)
 (require 'setup-org)
 (require 'setup-projectile)
 (require 'setup-rainbow-delimiters)
-(require 'setup-rust-mode)
+(require 'setup-rustic)
 (require 'setup-smex)
 (require 'setup-vertico)
 (require 'setup-web-mode)
