@@ -49,6 +49,7 @@
    flycheck-rust
    git-gutter
    haskell-mode
+   hl-todo
    idris-mode
    json-mode
    leuven-theme

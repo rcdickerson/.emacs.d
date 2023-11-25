@@ -5,4 +5,6 @@
               ("C-c C-c a" . lsp-execute-code-action)
               ("C-c C-c r" . lsp-rename)))
 
+(add-hook 'rust-mode-hook 'hl-todo-mode)
+
 (provide 'setup-rustic)
