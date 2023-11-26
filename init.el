@@ -86,6 +86,7 @@
 (require 'setup-ispell)
 (require 'setup-js-mode)
 (require 'setup-lsp-mode)
+(require 'setup-markdown-mode)
 (require 'setup-multiple-cursors)
 (require 'setup-neotree)
 (require 'setup-nerd-icons)
