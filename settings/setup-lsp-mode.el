@@ -4,6 +4,7 @@
   (setq lsp-keymap-prefix "C-c l")
   :hook ((rust-mode . lsp)
          (rustic-mode . lsp)
+         (python-mode . lsp)
          ;; if you want which-key integration
          (lsp-mode . lsp-enable-which-key-integration))
   :commands lsp)
@@ -11,5 +12,10 @@
 
 ;; Don't automatically show doc popup for everything.
 (setq lsp-ui-doc-enable nil)
+
+;; Snippets seem to cause me trouble, disabling for now.
+;; (Maybe a bug? Might be able to re-enable in future.)
+;; https://github.com/doomemacs/doomemacs/issues/6949
+(setq lsp-enable-snippet nil)
 
 (provide 'setup-lsp-mode)
