@@ -10,7 +10,7 @@
    '("c7eb06356fd16a1f552cfc40d900fe7326ae17ae7578f0ef5ba1edd4fdd09e58" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" default))
  '(haskell-mode-hook '(turn-on-haskell-indent))
  '(package-selected-packages
-   '(treemacs zen-mode hl-todo boogie-friends flycheck-rust rainbow-delimiters magit git-gutter proof-general exec-path-from-shell auctex idris-mode company-coq leuven-theme web-mode spaceline rust-mode smex projectile neotree markdown-mode json-mode haskell-mode flycheck flx-ido flx fill-column-indicator eyebrowse expand-region dockerfile-mode ample-zen-theme))
+   '(all-the-icons-nerd-fonts treemacs zen-mode hl-todo boogie-friends flycheck-rust rainbow-delimiters magit git-gutter proof-general exec-path-from-shell auctex idris-mode company-coq leuven-theme web-mode spaceline rust-mode smex projectile neotree markdown-mode json-mode haskell-mode flycheck flx-ido flx fill-column-indicator eyebrowse expand-region dockerfile-mode ample-zen-theme))
  '(proof-next-command-insert-space t)
  '(proof-three-window-enable t))
 (custom-set-faces

@@ -2,9 +2,10 @@
   :init
   ;; set prefix for lsp-command-keymap (few alternatives - "C-l", "C-c l")
   (setq lsp-keymap-prefix "C-c l")
-  :hook ((rust-mode . lsp)
-         (rustic-mode . lsp)
+  :hook ((haskell-mode . lsp)
          (python-mode . lsp)
+         (rust-mode . lsp)
+         (rustic-mode . lsp)
          ;; if you want which-key integration
          (lsp-mode . lsp-enable-which-key-integration))
   :commands lsp)

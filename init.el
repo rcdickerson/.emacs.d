@@ -53,6 +53,7 @@
    idris-mode
    json-mode
    leuven-theme
+   lsp-haskell
    lsp-mode
    lsp-ui
    magit
@@ -71,7 +72,6 @@
 
 ;; Load configurations.
 (require 'setup-all-the-icons)
-(require 'setup-agda-mode)
 (require 'setup-auctex)
 (require 'setup-company)
 (require 'setup-doom-modeline)
