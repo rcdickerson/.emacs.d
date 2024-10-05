@@ -63,6 +63,7 @@
    nerd-icons
    projectile
    proof-general
+   pyvenv
    smex
    rainbow-delimiters
    rustic
@@ -92,11 +93,13 @@
 (require 'setup-nerd-icons)
 (require 'setup-org)
 (require 'setup-projectile)
+(require 'setup-pyvenv)
 (require 'setup-rainbow-delimiters)
 (require 'setup-rustic)
 (require 'setup-smex)
 (require 'setup-vertico)
 (require 'setup-web-mode)
+(require 'setup-yasnippet)
 
 ;; Theme.
 (load-theme 'ample-zen t)
