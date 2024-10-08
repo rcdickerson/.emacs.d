@@ -59,14 +59,16 @@
    magit
    markdown-mode
    multiple-cursors
-   neotree
+   ;neotree
    nerd-icons
    projectile
    proof-general
    pyvenv
-   smex
    rainbow-delimiters
    rustic
+   smex
+   treemacs
+   treemacs-projectile
    vertico
    web-mode
    ))
@@ -89,7 +91,7 @@
 (require 'setup-lsp-mode)
 (require 'setup-markdown-mode)
 (require 'setup-multiple-cursors)
-(require 'setup-neotree)
+;(require 'setup-neotree)
 (require 'setup-nerd-icons)
 (require 'setup-org)
 (require 'setup-projectile)
@@ -97,6 +99,7 @@
 (require 'setup-rainbow-delimiters)
 (require 'setup-rustic)
 (require 'setup-smex)
+(require 'setup-treemacs)
 (require 'setup-vertico)
 (require 'setup-web-mode)
 (require 'setup-yasnippet)
