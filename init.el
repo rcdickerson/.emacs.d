@@ -59,7 +59,7 @@
    magit
    markdown-mode
    multiple-cursors
-   ;neotree
+   neotree
    nerd-icons
    projectile
    proof-general
@@ -87,11 +87,12 @@
 (require 'setup-go-mode)
 (require 'setup-hideshow-mode)
 (require 'setup-ispell)
+;(require 'setup-jinx)
 (require 'setup-js-mode)
 (require 'setup-lsp-mode)
 (require 'setup-markdown-mode)
 (require 'setup-multiple-cursors)
-;(require 'setup-neotree)
+(require 'setup-neotree)
 (require 'setup-nerd-icons)
 (require 'setup-org)
 (require 'setup-projectile)
