@@ -67,8 +67,6 @@
    rainbow-delimiters
    rustic
    smex
-   treemacs
-   treemacs-projectile
    vertico
    web-mode
    ))
@@ -100,7 +98,6 @@
 (require 'setup-rainbow-delimiters)
 (require 'setup-rustic)
 (require 'setup-smex)
-(require 'setup-treemacs)
 (require 'setup-vertico)
 (require 'setup-web-mode)
 (require 'setup-yasnippet)
