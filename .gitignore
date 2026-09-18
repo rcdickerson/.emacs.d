@@ -1,5 +1,8 @@
 auto-save-list/
 backups/
 elpa/
-projectile-bookmarks.eld
+eln-cache/
+.cache/
+history
+projectile-*.eld
 smex-items
